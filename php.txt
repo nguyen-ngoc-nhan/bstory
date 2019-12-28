@@ -1,0 +1,16 @@
+1.Tạo domain ảo
+2.Rewrite URL(đường dẫn thân thiện)
+Biểu thức chính quy :
+Quy tắc : 
+		^ : bắt đầu
+		$ :kết thúc
+		(.*) : đại diện cho 0 hoặc nhiều ký tự bất kì
+		(a-zA-Z) : các ký tự từ a-z A-Z
+		[(.*)+] : đại diện cho 1 hoặc nhiều ký tự bất kì
+		([0-9]*) : các số từ 0-n
+		([0-9]+) : các số từ 1-n
+		(a-zA-Z0-9) : các ký tự từ a-z,A-Z ,các số từ0-9
+		(a-zA-Z_!_@_$) : 
+		
+		=> ^cat/(.*).html$
+		

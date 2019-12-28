@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase / 
+
+RewriteRule lien-he contact.php
+
+RewriteRule ^cat/(.*)-([0-9]+).html$ cat.php?id=$2
+
+RewriteRule ^story/(.*)-([0-9]+).html$ detail.php?id=$2
+
+RewriteRule ^page/([0-9]+)$ index.php?id=$1
